@@ -14,11 +14,15 @@ export default class StudentsController {
         messages: {
           'name.minLength': 'Nama minimal 3 karakter',
           'name.maxLength': 'Nama maksimal 100 karakter',
+          'name.required': 'Nama tidak boleh kosong',
           'class.minLength': 'Kelas minimal 1 karakter',
           'class.maxLength': 'Kelas maksimal 10 karakter',
+          'class.required': 'Kelas tidak boleh kosong',
           'nis.minLength': 'NIS minimal 4 karakter',
           'nis.maxLength': 'NIS maksimal 20 karakter',
           'nis.regex': 'NIS harus berupa angka',
+          'nis.required': 'NIS tidak boleh kosong',
+          'gender.required': 'Gender tidak boleh kosong',
           'gender.enum': 'Gender harus berupa "L" atau "P"',
         },
       })      
